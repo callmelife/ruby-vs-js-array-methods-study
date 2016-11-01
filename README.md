@@ -16,8 +16,7 @@ class, and explain the similarities and differences between the two languages.
 By the end of this, developers should be able to:
 
 -   Explain the differences between JavaScript and Ruby array iteration methods.
--   Contrast passing inline code as blocks or symbols in Ruby with passing
-    inline code as anonymous or named functions in JavaScript.
+-   Compare and contrast functions that parse CSV files in JS and Ruby
 
 ## Instructions
 

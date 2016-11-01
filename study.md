@@ -11,7 +11,7 @@ material. Instead, digest what you've read and repeat it in your own voice.
 
 ## FIBONACCI
 
-In `bin/fibonacci.js` please write the following.
+In `bin/fibonacci.js` please write the following:
 1. `sumFibs`. Use reduce to find the sum of the `fibs` array.
 2. `prodFibs`. Use array methods to find the product of the `fibs` array, not including 0.
 3. `sumOdd`. Use array methods to find the sum of the odd numbers in the `fibs` array.
@@ -24,20 +24,22 @@ What were some similarities and differences between the Ruby and JS array method
 <!-- your answer here -->
 ```
 
-## EXAMPLE: Define "page" as used by non-developers
+## COMPARE: JS vs Ruby file reading
 
-What do users mean when they say "page"? What did you mean before your started
-your search to define SPAs?
+Look at the functions in `people.js` and `people.rb`. Both of these functions do
+the same thing: they parse a csv file and enter the pertinent data into an array.
+Explain the similarities and differences between these two funtions.
 
 ```md
 <!-- your answer here -->
 ```
 
-## EXAMPLE: Define "view" and "view-state"
+## PEOPLE COUNT
 
-Within the context of SPAs, what do developers mean when they say "view"? Since
-view can have many meanings, what do developers mean when they say "view-state"?
-How do front-end "routers" help manage view-state?
+In `lib/people-array.js`, write a function `women` that will count the number of
+women in an array of people.
+What are the differences between this function and the ruby funcion we did
+in class?
 
 ```md
 <!-- your answer here -->
