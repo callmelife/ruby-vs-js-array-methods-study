@@ -10,7 +10,7 @@ chai.use(chaiAsPromised);
 
 const expect = chai.expect;
 
-const fibResults = require('../bin/fibonacci.js');
+const fibResults = require('../lib/fibonacci.js');
 
 describe('subFibs', function () {
   it('is the sum of the fibs array', function () {
@@ -19,7 +19,7 @@ describe('subFibs', function () {
 });
 
 describe('prodFibs', function () {
-  it('is the product of the fibs array excluding 0', function (){
+  it('is the product of the fibs array excluding 0', function () {
     expect(fibResults.prodFibs).to.equal(2227680);
   });
 });
@@ -31,7 +31,7 @@ describe('sumOdd', function () {
 });
 
 describe('prodEven', function () {
-  it('is the product of the even numbers in the fibs array excluding 0', function (){
+  it('is the product of the even numbers in the fibs array excluding 0', function () {
     expect(fibResults.prodEven).to.equal(544);
   });
 });
